@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>封装DOM</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    div {
+      border: 1px solid red;
+      width: 100px;
+      height: 100px;
+    }
+    .big {
+      border: 2px solid chartreuse;
+      width: 250px;
+      height: 250px;
+      background-color: bisque;
+    }
+    .big2 {
+      position: fixed;
+      right: 0;
+    }
+
+  </style>
+</head>
+<body>
+<div class="big2">
+  <div id="a1">a1</div>
+  <div id="a2">a2</div>
+  <div id="a3">a3</div>
+</div>
+
+<script src="dom.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
