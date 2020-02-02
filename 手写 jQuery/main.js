@@ -1,0 +1,1 @@
+jQuery('.test-2').add('c1').add('c2')
